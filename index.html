@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principio - Prueba de Dominio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden; /* Evita que aparezcan barras de desplazamiento */
+            background-color: #000; /* Fondo negro opcional mientras carga la imagen */
+        }
+
+        .full-screen-link {
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+        }
+
+        .full-screen-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Hace que la imagen cubra toda la pantalla ajustándose sin deformarse */
+            display: block;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cambia la URL de 'href' por la página a la que quieras redirigir -->
+    <a href="https://www.chevroletsaracho.com.mx/" class="full-screen-link">
+        <!-- Cambia la ruta de 'src' por la dirección de tu imagen -->
+        <img src="1.jpeg" alt="Imagen principal" class="full-screen-image">
+    </a>
+
+</body>
+</html>
